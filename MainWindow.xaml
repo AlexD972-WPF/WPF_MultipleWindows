@@ -1,0 +1,11 @@
+﻿<Window x:Class="MultipleWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Main Window" Height="350" Width="525">
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Name="OpenWindow1" Content="Open Window 1" Click="OpenWindow1_Click"/>
+            <Button Name="OpenWindow2" Content="Open Window 2" Click="OpenWindow2_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
